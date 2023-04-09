@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Kanit', sans-serif;
+}
+body{
+    position: relative;
+}
+.top{
+    height: 110px;
+    background-color: #222f3e;
+    padding: 0px 20px;
+}
+.top img{
+    height: 75px;
+    width: 80px;
+    margin-top: 15px;
+    margin-left:20px;
+}
+.top button{
+    float: right;
+    margin-top: 30px;
+    margin-right: 25px;
+    padding:10px 25px;
+    font-size:20px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+}
+.navbarr{
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color: #ff3838;
+}
+.navbarr ul a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 0px;
+}
+.navbarr ul{
+    display: flex;
+    list-style-type: none;
+    margin-left:50px;
+    padding-top:10px;
+    font-weight: 300;
+}
+.navbarr ul li{
+    margin-left:30px;
+}
+.navbarr ul li a:hover{
+    color:cyan;
+}
+.size{
+    width: 70%;
+    height: fit-content;
+    margin-left: 200px;
+    background:rgba(0,0,0,0.6)url(images/bgc.jpg);
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position:center;
+    position: relative;
+    color: white;
+}
+.size h1{
+    text-align: center;
+    padding: 10px;
+    background-color: #ff3838;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.size .log{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.size .log div{
+    margin:20px 153px;
+}
+.size .fgroup p{
+    font-size: 14px;
+    color:red;
+    padding: 0px;
+    margin-top:5px;
+    margin-left: 10px;
+    letter-spacing: 2px;
+}
+.size .fgroup.error input{
+    border-color: #ff3838;
+}
+.size .fgroup.success input{
+    border-color:green;
+}
+.size .log input{
+    width: 550px;
+    height: 50px;
+    padding: 20px;
+    font-size: 17px;
+    margin-top: 10px;
+    border-radius: 10px;
+    outline: none;
+} 
+.size .log div span{
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+.size .check{
+    font-size: 18px;
+    margin: 10px 0px;
+    margin-left: 163px;
+}
+.size .sub{
+    font-size: 25px;
+    padding: 5px 15px;
+    border-radius: 100px;
+    border: none;
+    margin:30px 0px;
+    margin-left: 163px;
+    background-color: #ff3838;
+    color: white;
+    cursor: pointer;
+}
+.size .sub:hover{
+      background-color:red;
+      color: black;
+}
+@media screen and (max-width:1100px) {
+    .size{
+        margin-left: 150px;
+    }
+    .size .log input{
+        width:400px;
+        padding: 15px;
+        margin-left: -80px;
+    } 
+    .size .log div span{
+           margin-left: -80px;
+    }
+    .size .check{
+        font-size: 18px;
+        margin: 10px 0px;
+        margin-left: 123px;
+    }
+    .size .sub{
+        margin-left: 123px;
+    }
+}
+
+footer{
+    width: 100%;
+    height: 430px;
+    background-color: #222f3e;
+    margin-top: 40px;
+}
+.foot{
+    width: 80%;
+    margin-left: 130px;
+    height:430px;
+    margin-top: 80px;
+}
+.foot img{
+    height: 100px;
+    width: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.foot .span1,.span2,.span3{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 50px;
+    top: -20px;
+    left: 80px;
+    position: relative;
+    color: white;
+}
+.foot a{
+    text-decoration: none;
+}
+.foot i{
+    padding: 0px 10px;
+    margin-left: 80px;
+    margin-top: 30px;
+    transition-property: color;
+    transition-duration: 0.7s;
+    transition-timing-function:ease;
+    color:black;
+    cursor: pointer;
+}
+.foot i:hover{
+    color: white;
+    transition: ease-in;
+}
+.foot .copy{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+}
+.foot .copy span{
+    color:#ff3838;
+}
+@media screen and (max-width:726px) {
+    .size{
+        margin-left: 0px;
+    }
+    .size h1{
+        font-size: 30px;
+    }
+    .size .log input{
+        width:300px;
+        padding: 15px;
+        margin-left: -120px;
+    } 
+    .size .log div span{
+           margin-left: -120px;
+    }
+    .size .check{
+        font-size: 18px;
+        margin: 10px 0px;
+        margin-left: 53px;
+    }
+    .size .sub{
+        margin-left: 53px;
+    }
+    footer{
+        height:fit-content;
+        width:100%;
+        margin-top:-80px;
+    }
+    .foot{
+        height: fit-content;
+        width:100%;
+    }
+}
+@media screen and (max-width:463px) {
+    
+    .navbarr{
+             background-color:#FFDADA;
+    }
+    .navbarr ul a{
+        color: #222f3e;
+    }
+    .navbarr ul li a:hover{
+        color:red;
+    }
+    .top button{
+        margin-top: 30px;
+        margin-right: 10px;
+        padding:10px 15px;
+        font-size:12px;
+    }
+    .size h1{
+        font-size: 25px;
+    }
+    .size .log{
+        margin-top:0px;
+    }
+    .size{
+        margin-left:0px;
+        width:100%;
+        margin-top:0px;
+    }
+    .size .log input{
+        width:300px;
+        padding: 10px;
+        margin-left: -150px;
+    }
+    
+    .size .log div{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    } 
+    .size .log div span{
+           margin-left: -145px;
+    }
+    
+.size .fgroup p{
+    margin-left: -140px;
+}
+    .size .check{
+        font-size: 18px;
+        margin: 10px 0px;
+        margin-left: 10px;
+    }
+    .size .sub{
+        margin-left: 80px;
+    }    
+.foot img{
+    height: 70px;
+    width: 70px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    position:absolute;
+    left: 20px;
+    margin-left: 0px;
+}
+.foot .span1,.span2,.span3{
+    font-size: 15px;
+    padding: 10px;
+    top: 0px;
+    left: 0px;
+    display:flex;
+    position: relative;
+}
+
+.foot i{
+    padding: 0px 5px;
+    margin-left:0px;
+    margin-top: 10px;
+    position: relative;
+    left: -130px;
+    width: 40px;
+}
+.foot .copy{
+    font-size: 13px;
+    position: relative;
+    left: -130px;
+    padding-top: 20px;
+}
+.foot .copy span{
+    color:#ff3838;
+}
+}
+@media screen and (max-width:333px){
+    .top img{
+        height: 50px;
+        width: 50px;
+    }
+    .top{
+        height: 80px;
+    }
+    .top button{
+        margin-top: 20px;
+        margin-right: 10px;
+        padding:8px 10px;
+        font-size:8px;
+    }
+}
