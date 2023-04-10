@@ -272,7 +272,7 @@ footer{
     .size .log input{
         width:300px;
         padding: 10px;
-        margin-left: -150px;
+        margin-left: -110px;
     }
     
     .size .log div{
@@ -280,19 +280,19 @@ footer{
         margin-bottom: 10px;
     } 
     .size .log div span{
-           margin-left: -145px;
+           margin-left: -105px;
     }
     
 .size .fgroup p{
-    margin-left: -140px;
+    margin-left: -100px;
 }
     .size .check{
         font-size: 18px;
         margin: 10px 0px;
-        margin-left: 10px;
+        margin-left: 40px;
     }
     .size .sub{
-        margin-left: 80px;
+        margin-left: 120px;
     }    
 .foot img{
     height: 70px;
